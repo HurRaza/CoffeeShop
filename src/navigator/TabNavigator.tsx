@@ -5,7 +5,7 @@ import HomeScreen from '../screens/HomeScreen';
 import CartScreen from '../screens/CartScreen';
 import FavoritesScreen from '../screens/FavoritesScreen';
 import OrderHistoryScreen from '../screens/OrderHistoryScreen';
-import {COLORS} from '../theme/theme';
+import {COLORS, SPACING} from '../theme/theme';
 import {BlurView} from '@react-native-community/blur';
 import CustomIcons from '../components/CustomIcons';
 
@@ -99,6 +99,7 @@ const styles = StyleSheet.create({
     borderTopWidth: 0,
     elevation: 0,
     borderTopColor: 'tranparent',
+    paddingTop:SPACING.space_20
   },
   blurViewStyles: {
     position: 'absolute',
